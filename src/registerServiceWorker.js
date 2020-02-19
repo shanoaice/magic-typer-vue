@@ -1,3 +1,4 @@
+// eslint-disable-next-line unicorn/filename-case
 if (process.env.NODE_ENV === 'production' && 'serviceWorker' in navigator) {
   const { Workbox } = require('workbox-window')
 

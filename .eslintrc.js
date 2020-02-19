@@ -1,11 +1,16 @@
 module.exports = {
   extends: [
     'xo',
+    'xo-vue',
     'rem',
-    'plugin:prettier/recommended'
+    'plugin:prettier/recommended',
+    'prettier/vue'
   ],
   plugins: [
-    'prettier'
+    'prettier',
+    'unicorn',
+    'vue',
+    'import'
   ],
   env: {
     browser: true

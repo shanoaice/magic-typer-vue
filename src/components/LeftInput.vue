@@ -1,23 +1,23 @@
 <template>
-  <textarea v-model="leftText" ></textarea>
+  <textarea v-model="leftText" />
 </template>
 
 <script>
 import { mapMutations } from 'vuex'
 
 export default {
-  methods: mapMutations({
-    setText: 'setLeftText'
-  }),
   computed: {
     leftText: {
       get() {
         return this.$store.state.leftText
       },
-      set(val) {
-        this.setText(val)
+      set(value) {
+        this.setText(value)
       }
     }
-  }
+  },
+  methods: mapMutations({
+    setText: 'setLeftText'
+  })
 }
 </script>

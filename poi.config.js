@@ -3,6 +3,9 @@ module.exports = {
   plugins: [
     {
       resolve: '@poi/plugin-pwa'
+    },
+    {
+      resolve: '@poi/plugin-eslint'
     }
   ],
   output: {

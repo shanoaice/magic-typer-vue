@@ -1,4 +1,4 @@
-# magic-typer
+# magic-typer (Vue.js + SFC flavor)
 
 > Created by [create-poi-app](https://poi.js.org).
 > 
@@ -13,5 +13,14 @@ Build app for production to `./dist` folder.
 ### `npm run dev`
 
 Start a dev server to preview your app.
+
+## Derivatives
+
+There are some derivatives of this project, built in different frameworks:
+
+* [Vanilla](https://github.com/KsRyY/magic-typer)
+* **Vue.js + SFC (current)**
+* Vue.js + JSX *(WIP)*
+* React.js *(WIP)*
 
 

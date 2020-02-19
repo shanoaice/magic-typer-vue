@@ -1,5 +1,5 @@
 {
-  "name": "magic-typer",
+  "name": "magic-typer-vue",
   "private": true,
   "scripts": {
     "build": "poi --prod",
